@@ -1,5 +1,8 @@
 body {
-  background: #e2e1e0;
+  background:
+        radial-gradient(transparent, black),
+        url("http://lorempixel.com/500/500");
+  background-size: cover;
   text-align: center;
 }
 
@@ -22,11 +25,3 @@ body {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.vignette {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
-}
