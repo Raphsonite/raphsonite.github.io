@@ -1,5 +1,6 @@
 # RAPHSON
 
+Here you will find an overview of all the project from my youtube page. Thanks for watching! If you haven't subscribed yet, please feel free to do so here:
 
 ---
 
