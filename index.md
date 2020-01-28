@@ -1,6 +1,6 @@
 ## RAPHSON
 
 ## Making An ASCII-ART GENERATOR!? [PYTHON]
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/2fZBLPk-T2Y/hqdefault.jpg)](https://www.youtube.com/watch?v=2fZBLPk-T2Y)
 
+<img src="https://img.youtube.com/vi/2fZBLPk-T2Y/maxresdefault.jpg" alt="drawing" width="200"/>
 <a href="test.txt">Source code</a>
