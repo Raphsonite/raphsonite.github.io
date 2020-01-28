@@ -1,6 +1,8 @@
 ## RAPHSON
 
+
 ---
+
 
 # Making An ASCII-ART GENERATOR!? [PYTHON]
 
@@ -8,7 +10,10 @@
 
 <a href="test.txt">Get the code here.</a>
 
+test
+
 ---
+
 
 # Making An ASCII-ART GENERATOR!? [PYTHON]
 
@@ -16,4 +21,7 @@
 
 <a href="test.txt">Get the code here.</a>
 
+test
+
 ---
+
