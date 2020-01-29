@@ -1,9 +1,19 @@
-@import  url(https://fonts.googleapis.com/css?family=Montserrat);
+@import  url(https://fonts.googleapis.com/css?family=Bebas+Neue);
+@import  url(https://fonts.googleapis.com/css?family=Roboto);
+
+:root {
+  --firstColor: #2d3142;
+  --secondColor: #9933ff;
+}
 
 body {
   background-color: #444444;
   text-align: center;
-  font-family: Montserrat;
+  font-family: Roboto;
+}
+
+.title {
+  font-family: Bebas Neue;
 }
 
 .card {
@@ -31,7 +41,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
   box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
 }
 
@@ -53,6 +63,13 @@ body {
 .container {
   margin-top: -16px;
   margin-bottom: -10px;
+  max-height: 30px;
+}
+.container h4{
+  max-height: 30px;
+  font-size: 15px;
+  font-size: 1.5vh;
+  color: #444444;
 }
 /*
 .buttonContainer {
@@ -63,20 +80,21 @@ body {
 .button {
   box-sizing: border-box;
   height: 10px;
-  width: 200px;
+  width: 60%;
+  margin-left: 20%;
   display: table;
   font-size: 20px;
   font-weight: bold;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.55);
   transition: background 0.5s;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .button span {
   width: 100%;
   height: 100%;
   padding: 20px;
-  color: #2d3142;
-  box-shadow: 0 0 0 3px #2d3142 inset;
+  color: var(--firstColor);
+  box-shadow: 0 0 0 3px var(--firstColor) inset;
   background: transparent;
 }
 .button .away {
@@ -98,5 +116,14 @@ body {
   box-shadow: none;
 }
 .button:hover {
-  background: #2d3142;
+  background: var(--firstColor);
+}
+
+.button-1 span{
+  color: var(--secondColor);
+  box-shadow: 0 0 0 3px var(--secondColor) inset;
+}
+
+.button-1:hover {
+  background: var(--secondColor);
 }
